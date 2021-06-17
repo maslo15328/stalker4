@@ -1,0 +1,25 @@
+body{
+	display: flex;
+	flex-direction: column;
+	background-color: LightYellow;
+}
+.header, .footer{
+	height: 40px;
+	background-color: YellowGreen;
+}
+.content{
+	flex:1;
+}
+.media {
+	display: flex;
+	align-items: flex-start;
+	border: 1px solid black;
+	margin: 30px;
+}
+.media-body {
+	flex: 1;
+}
+img{
+	height: 90px;
+	width: 100px;
+}
